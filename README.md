@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Either clone repository and run `yarn start` or click [here](https://master.d26mf4yrry5w0.amplifyapp.com). 
 2. Share your screen with your friends, or have all players follow Step 1. 
 3. Select the mode you'd like to play in (Friendly, Flirty, or Mixed). 
-4. Have players take turns answering the truths or dares that are generated with each click of the Truth or Dare button. å
+4. Have players take turns answering the truths or dares that are generated with each click of the Truth or Dare button.
 
 ### Notes:
 - The game can be played between two people or in a group. Truths or dares may repeat. If a player receives a duplicate truth or dare, he or she can skip over it. 
