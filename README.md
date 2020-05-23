@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Game Instructions 
 
-1. Either clone repository and run `yarn start` or click [here] (https://master.d26mf4yrry5w0.amplifyapp.com/). 
+1. Either clone repository and run `yarn start` or click [here](https://master.d26mf4yrry5w0.amplifyapp.com). 
 2. Share your screen with your friends, or have all players follow Step 1. 
 3. Select the mode you'd like to play in (Friendly, Flirty, or Mixed). 
 4. Have players take turns answering the truths or dares that are generated with each click of the Truth or Dare button. å
