@@ -141,10 +141,6 @@ class GamePage extends Component {
       </div>
     );
   }
-
-
-
-
 }
 
 export default GamePage;

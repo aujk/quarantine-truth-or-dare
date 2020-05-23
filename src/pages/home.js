@@ -26,7 +26,6 @@ class HomePage extends Component {
     };
   }
 
-
   render() {
     console.log(logo);
 
@@ -34,6 +33,8 @@ class HomePage extends Component {
       <div className="mainContainer">
         <img src={require('../assets/GameTitle.png')} alt="Truth or Dare" className="logo"></img>
         <p>A <b>quarantine</b> compatible game. All truths and dares can be played with friends over Zoom.</p>
+        Pick your poison:
+        <br></br>
         <SelectionButton
           mode="Friendly"
           className="friendlyButton"
@@ -49,7 +50,6 @@ class HomePage extends Component {
           className="mixedButton"
         />
       </div>
-
     );
   }
 }

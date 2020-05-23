@@ -6,7 +6,7 @@ import GamePage from './pages/game.js';
 
 const Main = () => {
   return (
-    <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+    <Switch> 
       <Route exact path='/' component={HomePage}></Route>
       <Route exact path='/home' component={HomePage}></Route>
       <Route exact path='/game' component={GamePage}></Route>
