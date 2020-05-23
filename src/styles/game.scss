@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .topBar {
-  background-color: #FF69DE;
   color: white;
   position: absolute;
 
@@ -15,22 +14,27 @@
   left: 0px;
   top: 0px;
   padding: .5em 0px;
-  padding-left: .5em;
-  
+  padding-left: .5em;  
 }
 
-.topBar button {
-  background-color: transparent;
-  border: none;
-  padding-right: 1.5em;
-  position: relative;
-  top: .3em;
+#Flirty {
+    background-color: #FF69DE;
+}
+
+#Friendly {
+    background-color: #08CF04;
+}
+
+#Mixed {
+    background-color: #A64DFF;
 }
 
 .topBar img {
-  max-height: 2em;
-  width: auto;
-  float: left;
+    position: relative;
+    top: .05em;
+    max-height: 1.3em;
+    width: auto;
+    float: left;
 }
 
 .optionsContainer {

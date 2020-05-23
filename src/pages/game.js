@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import css from '../styles/game.scss';
-import App from '../App';
 import backButton from "../assets/BackArrow.png"
-import * as serviceWorker from '../serviceWorker';
-import { Redirect, Link, BrowserRouter } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
+import gameList from '../data/gameList.json'
+
+import '../styles/game.scss';
 
 function TopBar(props) {
   return (
-    <div className="topBar">
+    <div className="topBar" id={props.mode}>
       <Link to='/home'>
         <img src={backButton} alt="Back"/>
       </Link>
-      You're playing Truth or Dare in <b>Flirty</b> mode.
+      You're playing Truth or Dare in <b>{props.mode}</b> mode.
     </div>
   );
 }
@@ -50,16 +49,49 @@ class GamePage extends Component {
     });
   }
 
-  onTruthOrDareClick(tF) {
-    if (tF === "truth") {
+  getStatement(mode, selectedOption) {
+    if (mode === "Mixed") {
+      var willBeFlirty = Math.floor(Math.random() * 11);
+      if ((willBeFlirty % 2) === 0) {
+        mode = "Flirty";
+      }
+      else {
+        mode = "Friendly";
+      }
+    }
+
+    if (mode === "Flirty") {
+      if (selectedOption === "Truth") {
+        return gameList.FlirtyTruths;
+      }
+      else {
+        return gameList.FlirtyDares;
+      }
+    }
+    else {
+      if (selectedOption === "Truth") {
+        return gameList.FriendlyTruths;
+      }
+      else {
+        return gameList.FriendlyDares;
+      }
+    }
+  }
+
+  onTruthOrDareClick(tF, mode) {
+    if (tF === "Truth") {
+      const truths = this.getStatement(mode, tF)
+      var truth = truths[Math.floor(Math.random() * truths.length)];
       this.setState({
-        statement: "OOF YOU CHOSE A TRUTH",
+        statement: truth,
         selectedOption: "Truth"
       });
     }
-    else if (tF === "dare") {
+    else if (tF === "Dare") {
+      const dares = this.getStatement(mode, tF)
+      var dare = dares[Math.floor(Math.random() * dares.length)];
       this.setState({
-        statement: "OH YEA BUDDY A DARE",
+        statement: dare,
         selectedOption: "Dare"
       });
     }
@@ -81,18 +113,19 @@ class GamePage extends Component {
       <div className ="main">
         <TopBar
           onClick={() => this.onBackClick()}
+          mode={mode}
         />
         <div className="optionsContainer">
           Select Truth or Dare:
           <br></br>
           <TruthOrDareButton 
-            onClick={() => this.onTruthOrDareClick("truth")}
+            onClick={() => this.onTruthOrDareClick("Truth", mode)}
             choice="Truth"
             className="truthButton"
           />
           <br></br>
           <TruthOrDareButton 
-            onClick={() => this.onTruthOrDareClick("dare")}
+            onClick={() => this.onTruthOrDareClick("Dare", mode)}
             choice="Dare"
             className="dareButton"
           />

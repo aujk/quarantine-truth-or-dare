@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import App from '../App';
-import * as serviceWorker from '../serviceWorker';
-import { Redirect, Link, BrowserRouter } from 'react-router-dom';
+import logo from "../assets/GameTitle.png";
+import { Link } from 'react-router-dom';
+import '../styles/home.scss'
 
 function SelectionButton(props) {
   return (
@@ -27,17 +26,24 @@ class HomePage extends Component {
     };
   }
 
+
   render() {
+    console.log(logo);
+
     return (
-      <div>
+      <div className="mainContainer">
+        <img src={require('../assets/GameTitle.png')} alt="Truth or Dare" className="logo"></img>
+        <p>A <b>quarantine</b> compatible game. All truths and dares can be played with friends over Zoom.</p>
         <SelectionButton
           mode="Friendly"
           className="friendlyButton"
         />
+        <br></br>
         <SelectionButton
           mode="Flirty"
           className="flirtyButton"
         />
+        <br></br>
         <SelectionButton
           mode="Mixed"
           className="mixedButton"
