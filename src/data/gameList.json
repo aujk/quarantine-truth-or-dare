@@ -4,7 +4,31 @@
         "Who’s your celebrity crush?",
         "Tell an embarrassing story about yourself.",
         "What’s a bad habit that you have?",
-        "What’s the last thing you searched for on your phone?"
+        "What’s the last thing you searched for on your phone?",
+        "What's your most self-destructive behavior?",
+        "What will your life legacy be?",
+        "Who in the group do you think will end up the richest?",
+        "Would you want to be famous? In what way?",
+        "Two truths and a lie?",
+        "Do you rehearse what you say before making a call? Why?",
+        "What would be a perfect day for you?",
+        "If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want?",
+        "For what in your life do you feel most grateful?",
+        "If you could change anything about the way you were raised, what would it be?",
+        "Tell your life story in two minutes.",
+        "If you could wake up tomorrow having gained any one quality or ability, what would it be?",
+        "If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?",
+        "Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?",
+        "What is the greatest accomplishment of your life?",
+        "What do you value most in a friendship?",
+        "What is your most treasured memory?",
+        "If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?",
+        "How close is your family? Do you feel your childhood was happier than most other people’s?",
+        "When did you last cry in front of another person? By yourself?",
+        "Do you currently have a crush on anyone?",
+        "What is your guilty pleasure?",
+        "What would you do if you if you switched genders for a day?",
+        "What's a useless piece of knowledge that you know?"
     ],
 
     "FriendlyDares":[
@@ -14,14 +38,42 @@
         "Serenade the group to a song of their choice.",
         "Spin around 10 times and try to walk straight.",
         "Show the group the insides of your closet.",
-        "Show the group your best dance move."
+        "Show the group your best dance move.",
+        "Invite anyone in the group's choosing to join the call.",
+        "Do your best impersonation of the question asker or someone in the group.",
+        "Show the group an embarrassing photo from your childhood.",
+        "Share the most recent photo on your phone with the group."
     ],
 
     "FlirtyTruths":[
         "Describe your idea of a perfect date.",
         "What is the most attractive quality in a partner?",
         "What is the biggest turn off in a partner?",
-        "Describe your first partner."
+        "Describe your first partner.",
+        "What do you miss most about physical presence?",
+        "Are you sexually attracted to anyone in the group?",
+        "Which of us do you think has had sex most recently?",
+        "What's an item on your sexual bucket list?",
+        "What's something about your last relationship that you could have improved?",
+        "What's the best feature of the question asker?",
+        "What's yoru #1 sex jam?",
+        "Who in the group would be the hottest in 15 years?",
+        "Describe your favorite sexual activity, position, or habit.",
+        "Do you think you'd be a good parent?",
+        "Name three things you and the question asker appear to have in common.",
+        "What do you value most in a relationship?",
+        "What would be important for a partner to know about you?",
+        "What do you like most about the person asking you this question?",
+        "Worst date you've ever been on?",
+        "Best date you've ever been on?",
+        "Fuck, Marry, Kill. Three people of the question asker's choice.",
+        "Would you rather dump or be dumped?",
+        "Would you rather be the chaser or the chasee?",
+        "What's your rice purity test score? (http://ricepuritytest.com/)",
+        "How far would you go on a first date?",
+        "What makes someone husband or wife material?",
+        "If you had to choose between dating someone ugly who was good in bed or dating someone hot who was bad in bed, which would you choose?",
+        "What's the most romantic thing you've ever done?"
     ],
 
     "FlirtyDares":[
@@ -32,6 +84,7 @@
         "Read lyrics to “Baby” by Justin Bieber to the group in your most seductive voice.",
         "Whisper someone in the group’s name in a seductive way.",
         "Mime a blowjob using a banana or other similar object.",
-        "Show the moves you would bust at the club if you were trying to seduce someone."
+        "Show the moves you would bust at the club if you were trying to seduce someone.",
+        "Call a relative. The group can ask one question."
     ]
 }
