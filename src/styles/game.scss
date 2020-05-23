@@ -50,6 +50,10 @@
   margin-top: 25vh;
 }
 
+.optionsContainer button {
+  cursor:pointer;
+}
+
 .truthButton {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -95,6 +99,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: auto;
   
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
